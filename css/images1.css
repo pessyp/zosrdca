@@ -1,0 +1,74 @@
+/* 
+    Created on : Aug 22, 2024, 6:17:16 PM
+    Author     : peter
+*/
+.scaleA {
+    width: 100%;
+    max-width: max-content;
+}
+
+/* (A) DESIRED FIXED DIMENSION */
+.scaleB {
+    width: 500px;
+    height: 500px;
+/*  border: 1px solid blue;*/
+}
+
+/* (B) RESIZE METHOD */
+.fill {
+    object-fit: fill;
+}
+.contain {
+    object-fit: contain;
+}
+.cover {
+    object-fit: cover;
+}
+.scale {
+    object-fit: scale-down;
+}
+
+.row {
+/*    margin: 8px -16px;*/
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.imageContent {
+    padding: 5px;
+    text-align: center;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+

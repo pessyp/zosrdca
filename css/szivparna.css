@@ -26,7 +26,7 @@ body > div {
     overflow: hidden;
     background-color: lightseagreen;
     border-radius: 1em;
-    font-family: "Montserrat", sans-serif;
+    font-family: Ariel, sans-serif;
     font-size: 1.2em;
 }
 .topnav a {
@@ -56,7 +56,6 @@ header, .footer {
     padding: 1em;
     text-align: center;
     box-shadow: 0 0 1em burlywood;
-
 }
 header {
     background-color: #fad7a0;
@@ -84,6 +83,10 @@ h2{
     font-size: 2em;
     font-style: italic;
 }
+h3{
+    font-size: 1.2em;
+    font-style: italic;
+}
 /* Style the content */
 .content {
     background-color: #ddd;
@@ -92,7 +95,7 @@ h2{
     padding: 1em;
     box-shadow: 0 0 1em burlywood;
     font-size: 2em;
-    line-height: 2.0em;
+    line-height: 1.8em;
     text-align: justify;
 }
 img#affect {
@@ -104,10 +107,12 @@ img#affect {
     overflow: hidden;
     background-color: lightseagreen;
     border-radius: 1em;
-    font-family: "Montserrat", sans-serif;
+    font-family: Ariel, sans-serif;
     font-size: 1.5em;
     color: white;
     padding: 10px;
+    height: auto;
+    width: 100%;
 }
 .fa {
     padding: 10px;
@@ -161,4 +166,14 @@ blockquote {
         display: block;
         text-align: left;
     }
+}
+@media screen and (max-width: 767px) {
+  /* target HTML elements here */
+  h1, h2 {
+    font-size: 2em; /* or a smaller size of your choice */
+  }
+  p{
+    font-size: 1em;
+    line-height: 1em;
+  }
 }
