@@ -1,0 +1,34 @@
+.images-container{
+    max-width: 1000px;
+    height: 550px;
+    margin: 32px auto;
+    display: flex;
+/*    border: 2px solid #222;*/
+}
+.images-container img {
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+}
+.images-container .image {
+    position: relative;
+}
+.images-container .description {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #222;
+    color: #fff;
+    box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.4);
+    font-family: Arial;
+    font-size: 0.6em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.images-container .description h2 {
+    color: #50ebff;   
+}
+.imgage {
+    max-width: 100%;
+    height: auto;
+}
