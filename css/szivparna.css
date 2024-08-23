@@ -200,8 +200,8 @@ blockquote {
     line-height: 1em;
   }    
 }
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 560px) {
   header {
-    background-color: blue;
+    background-color: red;
   }
 }
