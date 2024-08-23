@@ -177,3 +177,22 @@ blockquote {
     line-height: 1em;
   }
 }
+@media only screen and (min-width: 360px) {
+  h1, h2 {
+    font-size: 2em; /* or a smaller size of your choice */
+  }
+  p{
+    font-size: 1em;
+    line-height: 1em;
+  }    
+}
+@media only screen and (min-height: 740px)
+{
+  h1, h2 {
+    font-size: 2em; /* or a smaller size of your choice */
+  }
+  p{
+    font-size: 1em;
+    line-height: 1em;
+  }    
+}
