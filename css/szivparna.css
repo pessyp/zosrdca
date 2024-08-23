@@ -114,6 +114,10 @@ img#affect {
     height: auto;
     width: 100%;
 }
+.footer img{
+    max-width: 100%;
+    height: auto;
+}
 .fa {
     padding: 10px;
     font-size: 15px;
