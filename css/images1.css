@@ -56,10 +56,6 @@
     padding: 5px;
     text-align: center;
 }
-.imageContent img{
-    max-width: 100%;
-    height: auto;
-}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
