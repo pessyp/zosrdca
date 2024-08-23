@@ -200,7 +200,7 @@ blockquote {
     line-height: 1em;
   }    
 }
-@media screen and (max-width: 74öpx) {
+@media screen and (max-width: 767px) {
   header {
     background-color: blue;
   }
