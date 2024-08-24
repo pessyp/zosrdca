@@ -147,7 +147,7 @@ img#affect {
 .content cite {
     color: black;
 }    
-@media screen and (min-width: 360px and max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -157,7 +157,7 @@ img#affect {
     }
 }
 
-@media screen and (min-width: 360px and max-width: 600px) {
+@media screen and (max-width: 600px) {
     .topnav.responsive {
         position: relative;
     }
@@ -172,7 +172,7 @@ img#affect {
         text-align: left;
     }
 }
-@media screen and (min-width: 360px and max-width: 600px) {
+@media screen and (min-width: 600px) {
   /* target HTML elements here */
   h1, h2 {
     font-size: 2em; /* or a smaller size of your choice */
