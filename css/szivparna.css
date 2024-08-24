@@ -180,6 +180,7 @@ img#affect {
   p{
     font-size: 1em;
     line-height: 1em;
+    text-align: left;  
   }
 }
 /*@media screen and (max-width: 600px) {
