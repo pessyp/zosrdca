@@ -172,7 +172,7 @@ img#affect {
         text-align: left;
     }
 }
-@media screen and (min-width: 600px) {
+@media screen and (width <= 760px) {
   /* target HTML elements here */
   h1, h2 {
     font-size: 2em; /* or a smaller size of your choice */
