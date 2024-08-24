@@ -175,10 +175,11 @@ img#affect {
 @media screen and (width <= 760px) {
   /* target HTML elements here */
   h1, h2 {
-    font-size: 2em; /* or a smaller size of your choice */
+    font-size: 1.5em; /* or a smaller size of your choice */
+    text-align: center;
   }
   h3 {
-    text-align: left;
+    text-align: center;
   }
   p{
     font-size: 1em;
