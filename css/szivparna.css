@@ -177,11 +177,17 @@ img#affect {
   h1, h2 {
     font-size: 2em; /* or a smaller size of your choice */
   }
+  h3 {
+    text-align: left;
+  }
   p{
     font-size: 1em;
     line-height: 1em;
     text-align: left;  
   }
+  ul#benefits {
+    text-align: left;
+  }  
 }
 /*@media screen and (max-width: 600px) {
     header {
