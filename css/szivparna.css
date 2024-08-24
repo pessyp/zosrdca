@@ -172,21 +172,6 @@ img#affect {
         text-align: left;
     }
 }
-@media screen and (width > 760px) {
-  /* target HTML elements here */
-  h1, h2 {
-    text-align: justify;
-  }
-  h3 {
-    text-align: justify;
-  }
-  p{
-    text-align: justify;  
-  }
-  ul#benefits {
-    text-align: justify;
-  }  
-}
 @media screen and (width <= 760px) {
   /* target HTML elements here */
   h1, h2 {
@@ -198,7 +183,7 @@ img#affect {
   p{
     font-size: 1em;
     line-height: 1em;
-    text-align: left;  
+    text-align: center;  
   }
   ul#benefits {
     text-align: left;
