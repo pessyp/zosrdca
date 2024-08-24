@@ -69,6 +69,10 @@
     .column {
         width: 100%;
     }
+    .imageContent img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
