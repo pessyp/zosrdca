@@ -289,8 +289,9 @@ img#affect {
     ul#benefits {
         text-align: left;
     }
-    .scrollbox {
-        height: 200px;
+    .content img {
+        width: 100%;
+        height: auto;
     }
 }
 /*@media screen and (max-width: 600px) {
