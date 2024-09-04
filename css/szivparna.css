@@ -5,7 +5,6 @@
 * {
     border: 0;
     box-sizing: border-box;
-/*    font-family: Arial, Helvetica, sans-serif;*/
 }
 body {
     margin: 0;
@@ -27,7 +26,7 @@ body > div {
     background-color: lightseagreen;
     border-radius: 1em;
     font-family: Arial, serif;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 .topnav a {
     float: left;
@@ -146,7 +145,108 @@ img#affect {
 }
 .content cite {
     color: black;
-}    
+}
+
+/* Add a card effect for articles */
+.card {
+    float: left;
+    display: block;
+    background-color: white;
+    border-radius: 1em;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.card h2{
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* style for thanks pages */
+#Div2, #Div3, #Div4, #Div5, #Div6, #Div7, #Div8 {
+    display: none;
+}
+/* Create three unequal columns that floats next to each other */
+.tcolumn {
+    float: left;
+    padding: 10px;
+    height: 50px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+    width: 15%;
+    align-items:center;
+    justify-content: left;
+    display: flex;
+}
+
+.right {
+    width: 15%;
+    align-items:center;
+    justify-content: right;
+    display: flex;
+}
+.middle {
+    width: 70%;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.thanks-wrapper {
+    display: flex !important;
+}
+.arrow-button {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    border-radius:5px;
+}
+#lbtn {
+    visibility: hidden;
+}
+#main-text-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    min-width: 0;
+    flex-wrap: nowrap;
+    border-radius: 8px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+/*  border-bottom: 1px dotted black;*/
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 20px;
+  color: navy;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+  left: 10%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -173,22 +273,25 @@ img#affect {
     }
 }
 @media screen and (width <= 760px) {
-  /* target HTML elements here */
-  h1, h2 {
-    font-size: 1.5em; /* or a smaller size of your choice */
-    text-align: center;
-  }
-  h3 {
-    text-align: center;
-  }
-  p{
-    font-size: 1em;
-    line-height: 1em;
-    text-align: center;  
-  }
-  ul#benefits {
-    text-align: left;
-  }  
+    /* target HTML elements here */
+    h1, h2 {
+        font-size: 1.5em; /* or a smaller size of your choice */
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+    }
+    p{
+        font-size: 1em;
+        line-height: 1em;
+        text-align: center;
+    }
+    ul#benefits {
+        text-align: left;
+    }
+    .scrollbox {
+        height: 200px;
+    }
 }
 /*@media screen and (max-width: 600px) {
     header {
