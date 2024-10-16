@@ -7,16 +7,16 @@ function showNextText(e) {
     var maxColElement = document.getElementById('maxcol');
     var mxcol = parseInt(maxColElement.innerHTML.valueOf());
 
-    if (next > 1) {
+    if (next < mxcol) {
         document.getElementById("lbtn").style.visibility = "visible";
     } else {
         document.getElementById("lbtn").style.visibility = "hidden";
     }
 
-    if (next >= mxcol) {
-        document.getElementById("rbtn").style.visibility = "hidden";
-    } else {
+    if (next > 1) {
         document.getElementById("rbtn").style.visibility = "visible";
+    } else {
+        document.getElementById("rbtn").style.visibility = "hidden";
     }
 
     if (next > 0) {
