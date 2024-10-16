@@ -113,6 +113,17 @@ img#affect {
     height: auto;
     width: 100%;
 }
+.button{
+    color: navy;
+    font-size: 1.1em;
+    text-align: center;
+    margin-left: 20px;
+    padding: 8px 15px;
+    vertical-align: middle;
+    border-radius: 1em;
+    border-width: 2px;
+    box-shadow: 0 0 1.2em burlywood;
+}
 .fa {
     padding: 10px;
     font-size: 15px;
@@ -163,7 +174,7 @@ img#affect {
 }
 
 /* style for thanks pages */
-#Div2, #Div3, #Div4, #Div5, #Div6, #Div7, #Div8 {
+#Div1, #Div2, #Div3, #Div4, #Div5, #Div6, #Div7, #Div8 {
     display: none;
 }
 /* Create three unequal columns that floats next to each other */
@@ -220,31 +231,6 @@ img#affect {
     min-width: 0;
     flex-wrap: nowrap;
     border-radius: 8px;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-/*  border-bottom: 1px dotted black;*/
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 20px;
-  color: navy;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 60%;
-  left: 10%;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
 }
 
 @media screen and (max-width: 600px) {
