@@ -6,22 +6,24 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:locale" content="sk_SK" />
-	<meta property="og:type" content="article" />
-	<meta property="og:title" content="Ďakovania &mdash; Srdcový vankúš" />
-	<meta property="og:description" content="Cieľom skupiny Srdcový vankúš je darovať ženám po operácii prsníka vankúš v tvare srdca, ktorý šijeme ako prejav nášho súcitu a podpory." />
-	<meta property="og:url" content="https://zosrdca.netlify.app/" />
-	<meta property="og:site_name" content="zosrdca" />         
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="Ďakovania &mdash; Srdcový vankúš" />
+        <meta property="og:description" content="Cieľom skupiny Srdcový vankúš je darovať ženám po operácii prsníka vankúš v tvare srdca, ktorý šijeme ako prejav nášho súcitu a podpory." />
+        <meta property="og:url" content="https://zosrdca.netlify.app/" />
+        <meta property="og:site_name" content="zosrdca" />
+        <link rel="icon" type="image/png" href="images/SzalagLogoRozsaszinFavIcon.png">
+        <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/szivparna.css">
+        <link rel="stylesheet" href="css/slides.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="images/flag-icons-main/css/flag-icons.min.css">
         <script src="js/shrinkFunction.js"></script>
-        <script src="js/showNextText.js"></script>
     </head>
     <body>
         <div class="wrapper">
             <div class="hcontainer">
                 <div class="topnav" id="myTopnav">
-                    <a href="index.html">Úvodná strana</a>
+                    <a href="index.html"><img src="images/icons8-home-24.png" alt="Home"/></a>
                     <a href="co-je-srdcovy-vankus.html">Čo je srdcový vankúš</a>
                     <a href="o-programe-srdcovy-vankus.html">O programe srdcový vankúš</a>
                     <a href="kto-sme.html">Kto sme</a>
@@ -32,122 +34,165 @@
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
-            </div>    
+            </div>
             <header>
-                <div class="logo">
-                    <img id="logo" src="images/SzalagLogoRozsaszin1.png" alt="Logo"/>
-                </div>
-                <div class="title">
-                    <h1>Srdcový vankúš</h1>
-                    <h2>na zmiernenie bolesti pacientok s rakovinou prsníka</h2>
+                <div class="page-title">
+                    <div class="page-title-left">
+                        <img id="logo" src="images/SzalagLogoRozsaszin1.png" alt="Logo"/>
+                    </div>
+                    <div class="page-title-center">
+                        <h1>Srdcový vankúš</h1>
+                        <h2>na zmiernenie bolesti pacientok s rakovinou prsníka</h2>
+                    </div>
+                    <div class="page-title-right">
+                        <img class="parna-logo" src="images/parna2x84.jpg" alt="Srdcovy vankus"/>
+                    </div>
                 </div>
             </header>
             <div class="content">
-                <div class="row">
-                    <div class="tcolumn left">
-                        <div id="lbtn" class="arrow-button">
-                            <span><button onclick="showNextText(1)"><img src="images/leftarrow1.png" alt="left"></button></span>
+                <div class="slideshow-container">
+                    <div class="row">
+                        <div class="tcolumn left">
+                        </div>
+                        <div class="tcolumn middle">
+                            <h2 class="slide-header">Ďakovania</h2>
                         </div>
                     </div>
-                    <div class="tcolumn middle">
-                        <h2>Ďakovania</h2>
-                    </div>
-                    <div id="rbtn" class="tcolumn right">
-                        <div class="arrow-button">
-                            <span><button onclick="showNextText(-1)"><img src="images/rightarrow1.png" alt="right"></button></span>
-                        </div>
-                    </div>
-                </div>
-                <div id="visible" style="display: none;">11</div>
-                <div id="maxcol" style="display: none;">11</div>
-                <div class="thanks-wrapper">
-                    <div id="main-text-wrapper">
-                        <div id="Div11" class="card">
+                    
+                    <!-- Full-width slides/quotes -->
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>1. december 2024</h5>
-                                <p>Pekný večer, Chcela by som sa Vám veľmi pekne poďakovať za super pomôcku do života po operáciách 
-                                   Srdiečkove vankúše sú každodennou súčasťou môjho života 
-                                   Ďakujem ❤️ 
-                                   S pozdravom 
-                                   <br>
-                                   Lýdia F.
-                                </p>
                         </div>
-                        <div id="Div10" class="card">
+                        <q>Pekný večer, Chcela by som sa Vám veľmi pekne poďakovať za super pomôcku do života po operáciách 
+                           Srdiečkove vankúše sú každodennou súčasťou môjho života 
+                           Ďakujem ❤️ 
+                        </q>
+                        <p class="greeting">S pozdravom</p>
+                        <p class="author">Lýdia F.</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>27. november 2024</h5>
-                            <p>Dobrý deň, po minulotýždňovej operácii prsníka vo VOU v Košiciach ma veľmi milo prekvapil darček v podobe vankúša, ktorý si dávam pod rameno na operovanej strane a ktorý je veľmi príjemný. Prečítala som si kto ho pripravuje a daruje a naozaj ma to dojalo. Je to od vás veľmi milé, že myslíte na ženy, ktoré sa nachádzajú v  ťažkom období a konkrétnym skutkom zmierňujete ich bolesť. Úprimne a z celého srdca Vám ďakujem! Nech vás za to Pán Boh odmení!
-                                S úctou, vďakou a srdečným pozdravom
-                                <br>
-                                Helena
-                            </p>
-                        </div>    
-                        <div id="Div9" class="card">
+                        </div>
+                        <q>Dobrý deň, po minulotýždňovej operácii prsníka vo VOU v Košiciach ma veľmi milo prekvapil darček v podobe vankúša, ktorý si dávam pod rameno na operovanej strane a ktorý je veľmi príjemný. 
+                            Prečítala som si kto ho pripravuje a daruje a naozaj ma to dojalo. 
+                            Je to od vás veľmi milé, že myslíte na ženy, ktoré sa nachádzajú v  ťažkom období a konkrétnym skutkom zmierňujete ich bolesť. 
+                            Úprimne a z celého srdca Vám ďakujem! Nech vás za to Pán Boh odmení!
+                        </q>
+                        <p class="greeting">S úctou, vďakou a srdečným pozdravom</p>
+                        <p class="author">Helena</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>3. október 2024</h5>
-                            <p>Dobrý deň. Dnes som sa stala držiteľkou Vašeho srdiečka. Chcela by som sa Vám poďakovať sa Vašu ušľachtilú činnosť, ktorou pomáhate nám ženám v tomto ťažkom období. Mne sa uľavilo ako na zdraví tak aj na duši. Klobúk dole pred Vami❤️. Ešte raz ďakujem veľmi pekne. 
-                                <br>    
-                                R. Zuzana
-                            </p>
-                        </div>    
-                        <div id="Div8" class="card">
+                        </div>
+                        <q>Dobrý deň. Dnes som sa stala držiteľkou Vašeho srdiečka. 
+                            Chcela by som sa Vám poďakovať sa Vašu ušľachtilú činnosť, ktorou pomáhate nám ženám v tomto ťažkom období. 
+                            Mne sa uľavilo ako na zdraví tak aj na duši. 
+                            Klobúk dole pred Vami❤️. 
+                        </q>
+                        <p class="greeting">Ešte raz ďakujem veľmi pekne. </p>
+                        <p class="author">R. Zuzana</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>10. júl 2024</h5>
-                            <p>Vzácne, milé, vážené a ctené všetky ženy, ktoré ste sa akýmkoľvek spôsobom pričinili o to, že sa srdiečkový vankúšik dostal aj 
+                        </div>
+                        <q>Vzácne, milé, vážené a ctené všetky ženy, ktoré ste sa akýmkoľvek spôsobom pričinili o to, že sa srdiečkový vankúšik dostal aj 
                                 ku mne - onkologickej pacientke. Robíte úžasnú vec. Po operácii prsníka (12.6.2024), bolo pre mňa srdiečko od Vás nenahraditeľnou pomôckou. Neviem si predstaviť, ako by som to bez vankúšika zvládla. Jednoducho veľmi mi pomohol. Rany sa dobre zahojili a som pripravená na ďalšiu liečbu. 
                                 Patrí Vám obrovské ďakujem! Ďakujem Vám úprimne z celého srdiečka.
                                 Prajem Vám veľa, veľa zdravia, lásky, šťastia a úspechov. 
-                                <br>  
                                 Prosím, pokiaľ môžte,  darujte srdiečkové vankúše aj ostatným ženám, ktoré to práve potrebujú.
-                                <br>
-                                S pozdravom
-                                <br>        
-                                Ing. Jarmila T.</p>
-                        </div>
-                        <div id="Div7" class="card">
+                        </q>
+                        <p class="greeting">S pozdravom</p>
+                        <p class="author">Ing. Jarmila T.</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>17. jún 2024</h5>
-                            <p>A vaše vankušiky už sú aj na Kysuciach ♥️😍 Krásne gesto, dnes už je máločo zadarmo... snáď sa informácia, že niečo také existuje a pomáha dostane k viacerým ktorí to potrebujú.
-                                <br>
-                                Zuzana K.</p>
                         </div>
-                        <div id="Div6" class="card">
+                        <q>A vaše vankušiky už sú aj na Kysuciach ♥️😍 
+                            Krásne gesto, dnes už je máločo zadarmo... snáď sa informácia, že niečo také existuje a pomáha dostane k viacerým ktorí to potrebujú.
+                        </q>
+                        <p class="greeting"></p>
+                        <p class="author">Zuzana K.</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>13. jún 2024</h5>
-                            <p>Dobrý deň dnes som dostala balík od Vás. Ďakujem pekne je to super.  
+                        </div>
+                        <q>Dobrý deň dnes som dostala balík od Vás. Ďakujem pekne je to super.  
                                 Úplne to odľahčí ruku. Ste úžasné. Veľká vďaka za Vašu prácu.
-                                <br>
-                                S pozdravom Zdenka T.</p>
-                        </div>
-                        <div id="Div5" class="card">
+                        </q>
+                        <p class="greeting">S pozdravom</p>
+                        <p class="author">Zdenka T.</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>11. jún 2024</h5>
-                            <p>Dobrý deň, chcela by som sa Vám veľmi pekne poďakovať za srdiečkový vankúš, ako pacientke mi veľmi pomohol. Robíte skvelú vec a určite v tom pokračujte, je to od Vás milé gesto a veľká pomoc pre nás pacientky. Ešte raz veľké ďakujem ❤️  . 
-                                <br>
-                                S pozdravom O.</p>
                         </div>
-                        <div id="Div4" class="card">
+                        <q>Dobrý deň, chcela by som sa Vám veľmi pekne poďakovať za srdiečkový vankúš, ako pacientke mi veľmi pomohol. Robíte skvelú vec a určite v tom pokračujte, je to od Vás milé gesto a veľká pomoc pre nás pacientky. Ešte raz veľké ďakujem ❤️  . 
+                        </q>
+                        <p class="greeting">S pozdravom</p>
+                        <p class="author">O.</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>1. marec 2024</h5>
-                            <p>Dobrý deň,  veľmi pekne ďakujem za srdiečkovy vankúš. Veľmi ma to potešilo a verím že mi pomôže. Vážim si ľudí, ktorí pomáhajú iným ľuďom. Ostávam s pozdravom 
-                                <br>    
-                                G. Valéria </p>
                         </div>
-                        <div id="Div3" class="card">
+                        <q>Dobrý deň,  veľmi pekne ďakujem za srdiečkovy vankúš. Veľmi ma to potešilo a verím že mi pomôže. Vážim si ľudí, ktorí pomáhajú iným ľuďom. 
+                        </q>
+                        <p class="greeting">Ostávam s pozdravom </p>
+                        <p class="author">G. Valéria</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>30. november 2023</h5>
-                            <p>Milý ANJELIK!!! Našla si ma, lebo sa dostala k tebe zpráva o mne☹️a lebo si ma chcela nájsť❤️❤️❤️Plakala som od radosti…. Nedávno počas bezsennej noci som rozmýšľala nad tým, čo by som mohla položiť pod boľavé rameno☹️Je neuveriteľné, že prišlo čo tam patrí😲Nepočula som o takom niečom, ale moja fantázia ma usmernila týmto smerom😉Dnes ho priniesla jedna kolegyňa, s ktorou som v dennom styku… Nenachádzam slov, ale poznám tvoju nezištnú ochotu pomôcť, tvoju dobrú dušu…. Nech ťa pán  Boh zachová takú😘Ďakujem Ti vďačným srdcom😉Dúfam, že mi pomôže v dlhom procese uzdravenia…. Som silná, som statočná, som bojovníčka…. Som presvedčená o uzdravení😉Veľmi veľmi pekne ďakujem, že popri svojich tisíc ďalších povinností si našla na mňa čas😘Láska a objatie😘😘😘</p>
                         </div>
-                        <div id="Div2" class="card">
+                        <q>Milý ANJELIK!!! Našla si ma, lebo sa dostala k tebe zpráva o mne☹️a lebo si ma chcela nájsť❤️❤️❤️Plakala som od radosti…. Nedávno počas bezsennej noci som rozmýšľala nad tým, čo by som mohla položiť pod boľavé rameno☹️Je neuveriteľné, že prišlo čo tam patrí😲Nepočula som o takom niečom, ale moja fantázia ma usmernila týmto smerom😉Dnes ho priniesla jedna kolegyňa, s ktorou som v dennom styku… Nenachádzam slov, ale poznám tvoju nezištnú ochotu pomôcť, tvoju dobrú dušu…. Nech ťa pán  Boh zachová takú😘Ďakujem Ti vďačným srdcom😉Dúfam, že mi pomôže v dlhom procese uzdravenia…. Som silná, som statočná, som bojovníčka…. Som presvedčená o uzdravení😉Veľmi veľmi pekne ďakujem, že popri svojich tisíc ďalších povinností si našla na mňa čas😘Láska a objatie😘😘😘
+                        </q>
+                        <p class="greeting"></p>
+                        <p class="author">-</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <div class="quote-datum">
                             <h5>28. október 2023</h5>
-                            <p>Milá Ágnes!
+                        </div>
+                        <q>Milá Ágnes!
                                 Touto cestou by som chcela vyjadriť svoju vďačnosť a veľmi pekne sa poďakovať za srdiečkový vankúš, ktorý používam každý deň 🙂
                                 Prajem veľa úspechov k vašej ďaľšej činnosti!
-                                <br>
-                                S úctou
-                                <br>
-                                F. Margitka</p>
-                        </div>
-                        <div id="Div1" class="card">
-                            <h5>20. apríl 2023</h5>
-                            <p>Milé srdiečkové víly, ďakujem vám všetkým za krásne vankúšové srdiečko. Dnes som ho dostala pri cvičení ruky po včerajšej operácii nádoru v prsníku.
-                                Je nádherný a bude mojim verným pomocníkom 😉
-                                Vrele ďakujem 🤗💓
-                                E.😘</p>
-                        </div>
+                        </q>
+                        <p class="greeting">S úctou</p>
+                        <p class="author">F. Margitka</p>
                     </div>
+                    
+                    <div class="mySlides">
+                        <div class="quote-datum">
+                            <h5>20. apríl 2023</h5>
+                        </div>
+                        <q>Milé srdiečkové víly, ďakujem vám všetkým za krásne vankúšové srdiečko. Dnes som ho dostala pri cvičení ruky po včerajšej operácii nádoru v prsníku.
+                                Je nádherný a bude mojim verným pomocníkom 😉
+                        </q>
+                        <p class="greeting">Vrele ďakujem</p>
+                        <p class="author">E.😘</p>
+                    </div>
+
+                    <!-- Next/prev buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
                 </div>
+
             </div>
             <div class="footer">
                 <p>&copy; 2024, Perjéssy Péter &nbsp; &nbsp; &nbsp; 
@@ -156,5 +201,37 @@
                 <p><span>Náš sponzor:</span> <img style="vertical-align: middle; padding-right: 20px;" src="images/MRLLogo.png" alt="Logo"/>ZO Magyarpolány</p>
             </div>
         </div>
+                <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
     </body>
 </html>
