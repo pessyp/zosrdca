@@ -48,7 +48,7 @@ header {
     float: right;
 }
 .page-title {
-    display: flex; 
+    display: flex;
     flex-direction: row;
 }
 .page-title-left {
@@ -59,4 +59,13 @@ header {
 }
 .page-title-right {
     padding-right: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .page-title-left {
+        padding-left: 0;
+    }
+    .page-title-right {
+        padding-right: 0;
+    }
 }

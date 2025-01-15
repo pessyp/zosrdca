@@ -214,6 +214,13 @@ img#affect {
     border-radius: 8px;
 }
 
+.media-ul {
+    padding-left: 20px;
+}
+.media-li {
+    text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
         display: none;
@@ -261,9 +268,3 @@ img#affect {
         height: auto;
     }
 }
-/*@media screen and (max-width: 600px) {
-    header {
-        background-color: red;
-    }
-}
-*/
