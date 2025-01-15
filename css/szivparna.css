@@ -21,35 +21,12 @@ body > div {
     margin: 0 auto;
     text-align: left;
 }
-.topnav {
-    overflow: hidden;
-    background-color: lightseagreen;
-    border-radius: 1em;
-    font-family: Arial, serif;
-    font-size: 1em;
+p {
+  font-family: Roboto, Arial, serif;  
 }
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 2em;
-}
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.topnav a.active {
-    background-color: darkcyan;
-    color: white;
-}
-.topnav .icon {
-    display: none;
-}
+
 header, .footer {
-    opacity: 0.75;
+/*    opacity: 0.75;*/
     border-radius: 1em;
     border-width: 1px;
     padding: 1em;
@@ -65,10 +42,7 @@ header {
 .title{
     vertical-align: baseline;
 }
-.logo{
-    float:left;
-    vertical-align: baseline;
-}
+
 h1, h2, h4, h5, h6{
     color: #2e7f78;
 }
@@ -86,6 +60,12 @@ h3{
     font-size: 1.2em;
     font-style: italic;
 }
+h5{
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 /* Style the content */
 .content {
     background-color: #ddd;
@@ -96,7 +76,7 @@ h3{
     font-size: 2em;
     line-height: 1.8em;
     text-align: justify;
-    opacity: 0.7;
+    opacity: 0.82;
 }
 img#affect {
     max-width: 100%;
@@ -259,7 +239,7 @@ img#affect {
         text-align: left;
     }
 }
-@media screen and (width <= 760px) {
+@media screen and (max-width: 760px) {
     /* target HTML elements here */
     h1, h2 {
         font-size: 1.5em; /* or a smaller size of your choice */

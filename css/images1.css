@@ -56,6 +56,16 @@
     padding: 5px;
     text-align: center;
 }
+.contentI {
+    background-color: #ddd;
+    border-radius: 1em;
+    border-width: 1px;
+    padding: 1em;
+    box-shadow: 0 0 1em burlywood;
+    font-size: 2em;
+    line-height: 1.8em;
+    text-align: justify;
+}
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
@@ -65,7 +75,7 @@
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (width <= 760px) {
+@media screen and (max-width: 760px) {
     .column {
         width: 100%;
     }
