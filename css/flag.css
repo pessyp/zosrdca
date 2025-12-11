@@ -1,0 +1,23 @@
+.fib,.fi{
+  background-size:contain;
+  background-position:50%;
+  background-repeat:no-repeat
+}
+.fi{
+  position:relative;
+  display:inline-block;
+  width:1.333333em;
+  line-height:1em
+}
+.fi:before{
+  content:" "
+}
+.fi.fis{
+  width:1em
+}
+.fi-hu{
+  background-image:url(../images/hu.svg);
+}
+.fi-sk{
+  background-image:url(../images/sk.svg);
+}
