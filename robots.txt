@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /files/*
+Allow: /images/* 
+Allow: /css 
+Allow: /js
