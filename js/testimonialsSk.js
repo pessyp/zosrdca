@@ -127,7 +127,7 @@ const items = [
     },
     {
         id: 25,
-        type: "2025",
+        type: "2026",
         date: "18. jún 2026",
         text:
             "Chcem sa touto cestou poďakovať za Váš vankúšik. Je naozaj veľmi veľkou pomocou po operácii. Patrí Vám veľké Ďakujem ♥️ " +
